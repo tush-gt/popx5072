@@ -63,3 +63,32 @@
     margin: 1rem 2rem;
     text-align: justify;
 }
+
+
+@media screen and (max-width:600px) {
+    .profile-container{
+        box-shadow: none;
+        background-color: #f7f8f9;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-left: -1rem;
+        width: 100%;
+    }
+
+    .header{
+        display: flex;
+        box-shadow: none;
+        background-color: #fff;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header p{
+        font-size: 1.2rem;
+        text-align: left;
+        position: absolute;
+        left: 2rem;
+    }
+}

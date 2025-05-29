@@ -21,7 +21,8 @@ function SignupScreen(){
                             type="text"
                             id="name"
                             placeholder="Enter full name"
-                            className="form-inputs" 
+                            className="form-inputs"
+                            autoComplete="off" 
                             required
                             />
                     </div>
@@ -32,7 +33,8 @@ function SignupScreen(){
                             type="email"
                             id="email"
                             placeholder="Enter email address"
-                            className="form-inputs"  
+                            className="form-inputs"
+                            autoComplete="off" 
                             required/>
                     </div>
 
@@ -43,6 +45,7 @@ function SignupScreen(){
                             id="phone"
                             placeholder="Enter phone number"
                             className="form-inputs"  
+                            autoComplete="off" 
                             required/>
                     </div>
 
@@ -52,7 +55,8 @@ function SignupScreen(){
                             type="password"
                             id="pass"
                             placeholder="Enter password"
-                            className="form-inputs"  
+                            className="form-inputs" 
+                            autoComplete="off"  
                             required/>
                     </div>
 
@@ -61,27 +65,34 @@ function SignupScreen(){
                         <input 
                             type="text"
                             id="company"
-                            placeholder="COmpany name"
-                            className="form-inputs"  
+                            placeholder="Company name"
+                            className="form-inputs"
+                            autoComplete="off"   
                             required/>
                     </div>
 
                     <div className="radio-group">
                         <p>Are you an agency?<span>*</span></p>
-                        <label htmlFor="radio-btn">
+                        <label htmlFor="radio-yes">
                             <input 
                                 type="radio"
                                 id="radio-yes"
                                 name="agency"
-                                className="form-inputs-radio" />
+                                className="form-inputs-radio" 
+                                autoComplete="off"
+                                required
+                            />
                                 Yes
                         </label>
-                        <label htmlFor="radio-btn">
+                        <label htmlFor="radio-no">
                             <input 
                                 type="radio"
                                 id="radio-no"
                                 name="agency"
-                                className="form-inputs" />
+                                className="form-inputs"
+                                autoComplete="off"
+                                required
+                            />
                                 No
                         </label>
                     </div>

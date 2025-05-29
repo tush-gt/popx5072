@@ -57,3 +57,38 @@
     border: none;
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
 }
+
+
+/* responsiveness for phone - the actual desgin now */
+@media  screen and (max-width: 600px) {
+    .form-container{
+        display: flex;
+        height: 100svh;
+        width: 100%;
+        background-color: #f7f8f9;
+        justify-content: flex-end;
+        /* padding-bottom: -3rem; */
+        /* padding: 2rem 1rem; */
+        box-shadow: none;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .btn-group{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    h2{
+        font-size: 1.9rem;
+        text-align: left;
+    }
+
+    h4{
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+
+}
+

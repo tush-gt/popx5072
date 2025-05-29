@@ -21,7 +21,7 @@ function LoginScreen(){
 
                     <form onSubmit={handleSubmit} className="login-form">
                         <div className="form-group">
-                            <label htmlFor="email">Email Address</label>
+                            <label htmlFor="email">Email Address<span>*</span></label>
                             <input 
                                 type="email"
                                 id="email"
@@ -34,7 +34,7 @@ function LoginScreen(){
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="pass">Password</label>
+                            <label htmlFor="pass">Password<span>*</span></label>
                             <input 
                                 type="password"
                                 id="pass"
